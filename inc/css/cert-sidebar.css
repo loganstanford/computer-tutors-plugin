@@ -1,0 +1,29 @@
+.ct-cert-title {
+  font-size: 1em;
+}
+
+.cert-track-list li:nth-child(2n) {
+  float: right;
+  padding-left: 2em;
+  border-left: 2px solid;
+}
+.cert-track-list li:nth-child(odd) {
+  float: left;
+  padding-right: 2em;
+  border-right: 2px solid;
+}
+.cert-track-list li {
+  border-bottom: 2px solid;
+  list-style-type: none;
+  width: 6em;
+  line-height: 1;
+}
+.cert-track-list a {
+  font-size: small;
+}
+.cert-track-list li:last-child {
+  margin-bottom: 1em;
+}
+.cert-track-list {
+  max-width: 14.1em;
+}

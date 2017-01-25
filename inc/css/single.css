@@ -1,0 +1,52 @@
+.parent-title {
+  margin-bottom: 3em;
+}
+.ct-levels-row {
+  margin-bottom: 13em;
+  justify-content: center;
+}
+.ct-class-level-box {
+  border: 1px solid hsla(0, 0%, 0%, .3);
+  text-align: center;
+  border-radius: 30px 5px 30px 5px;
+  padding: 2em 0 2em 0;
+  transition: .122s;
+}
+.ct-class-level-box:hover,
+.ct-class-level-box:focus {
+  -webkit-box-shadow: hsla(0, 0%, 0%, 0.1) 0 0 15px 0;
+  -moz-box-shadow: hsla(0, 0%, 0%, 0.1) 0 0 15px;
+  box-shadow: hsla(0, 0%, 0%, 0.1) 0 0 15px;
+  transition: .2s;
+}
+.ct-level-text {
+  padding: 1em;
+  margin: 0 auto;
+}
+@media screen and (max-width:640px) {
+  .ct-class-level-box {
+    transform: scale(.9,.9);
+    margin: 0 auto !important;
+  }
+   td, p, .row h4 h1 {
+    padding: .8em !important;
+    font-size: .8em !important;
+  }
+}
+.vert-line {
+  height: 50px;
+  margin: -2px auto;
+  border-left: solid 0.0625rem #A9AAAD;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+
+}
+.ct-cert-icon {
+  text-align: center;
+  margin: 0 auto;
+  display: table !important;
+  left: 50%;
+  right: 50%;
+  background-color: #fff;
+}
